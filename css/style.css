@@ -1,0 +1,267 @@
+
+/*art of garedening part*/
+
+
+/* default styles*/
+*::-webkit-input-placeholder {
+    color: #20c11b;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #20c11b;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #20c11b;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: #666666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+body input:required:valid,
+body textarea:required:valid {
+
+}
+
+/*personal styles*/
+
+body {
+    background: url(../img/backgr.jpg) top center
+}
+
+.headerTopic{
+    background: url(../img/logo/aboutUs.jpg);
+}
+
+
+p{
+    font-family: "Liberation Sans";
+}
+
+
+/*Navigation*/
+
+.nav.navbar-nav.navbar-right li a {
+    color: #88ee88;
+}
+
+
+
+.navbar-header  h2{
+    color: white;
+}
+
+.navIntro{
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: 'Liberation Sans';
+    font-weight: 600;
+    color:#88ee88;
+}
+
+.main_mnu_button {
+    background-color: transparent;
+    border: medium none;
+    font-size: 50px;
+    color: #88ee88;
+    padding: 8px 15px 0;
+    float: right;
+    margin-top: 10px
+}
+
+.headerMove{
+    margin-top: 150px;
+}
+
+
+
+/*
+.headerLogo{
+    width: 220px;
+    height: 220px;
+    margin-left: -20px;
+}
+*/
+
+
+.introText p{
+   /* background-color: rgba(233, 141, 11, 0.5);
+    margin-top: 1em;
+    margin-bottom: 1em;*/
+}
+
+
+
+.textFont {
+    font-family: "Liberation Sans";
+    font-weight: 900;
+}
+
+.textFont p{
+    background-color: rgba(233, 141, 11, 0.5);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.tableStyle{
+
+
+}
+.tableStyle {
+
+    width: 200px;
+
+}
+
+.table{
+    vertical-align: middle;
+}
+
+
+.getPhoneForm td{
+   text-align: center;
+}
+
+.getPhoneForm a{
+    margin: 5px;
+}
+
+.sale{
+    background-color: white;
+}
+
+.saleSign{
+    font-family: 'Comfortaa', Arial, sans-serif;
+    color:red;
+    font-weight: 900;
+    text-align: center;
+}
+
+.logoSale img {
+   margin-top: 10%;
+   margin-bottom: 10% ;
+}
+
+.services4 {
+    background-color: #88ee88;
+    color: white;
+    text-align: center;
+
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.services8 {
+    background-color: #eeeeee;
+}
+
+.services8 li {
+    list-style-type: none;
+    display: inline-block;
+}
+.services8 ul{
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+
+}
+
+.sliderStyle {
+    background-color: white;
+    margin-top:-10px;
+}
+.containers {
+    background-color: white;
+    /*
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -10px;
+    */
+}
+
+
+
+.aboutUsTitle{
+    font-weight: 600;
+    font-size: 40px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    background: url(../img/logo/aboutUs.jpg);
+    margin-top: -20px;
+
+}
+
+.toString{
+    display: inline;
+    line-height: 200px;
+    vertical-align: middle;/*работает только для строчных элементов*/
+
+}
+
+.aboutUs{
+    background-color: white;
+    min-height: 300px;
+}
+
+.aboutUs img{
+    height:400px;
+    width: 300px;
+}
+
+
+/*
+.howItsWorks{
+    background-color: white;
+    height: 319px;
+}
+
+.howItsWorks p{
+   font-size: large;
+}
+
+.howItsWorks-5{
+    margin-left: 120px;
+    margin-top: 60px;
+    background-color: #88ee88;
+    color: white;
+
+
+ }
+*/
+/*
+.howItsWorks-7{
+    padding-left: 20px;
+    margin-right: -15px;
+    background-color: white;
+    margin-top: -70px;
+  /*  padding-top: 10px;
+    padding-bottom: 10px;
+}
+*/
+.nullPadding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+body {
+    /*font-family:sans-serif;*/
+    background: url(../img/backgr.jpg) top center
+
+} /*carasmo's comment to hide horizontal scroll bar https://github.com/twbs/bootstrap/issues/10711*/
+
+.semiopacity{
+    opacity: 10;
+}
+h1, h2, p {
+   /* font-family: 'Comfortaa',
+    Arial, sans-serif;*/
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul {
+    margin: 0;
+}
+
+/*------------------------------------------------------
+	NAVIGATION
+--------------------------------------------------------*/
+nav {
+    font-family: 'Comfortaa', Arial, sans-serif;
+    font-size: 1.8em;
+    font-weight: lighter;
+color: #00c8c8}
+nav .fa { display: block; text-align: center; margin-bottom: 13px; }
+
+.navbar {
+    background: rgba(48, 48, 48, 0.5);
+    min-height: 100px;
+    opacity: 2.0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    -moz-transition: background-color .5s ease;
+    -o-transition: background-color .5s ease;
+    -webkit-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .menu ul li a.current {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.navbar>.container .navbar-brand { margin-left: 0; }
+.navbar-collapse .navbar-nav.navbar-right:last-child { margin-right: 0; }
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #394665; }
+/*------------------------------------------------------
+	FLEXSLIDER OVERRIDING
+--------------------------------------------------------*/
+.flexslider { padding-top: 85px; }
+.flexslider a:hover, .flexslider a:focus { text-decoration: none; }
+.flexslider { border: none;	-webkit-border-radius: 0; border-radius: 0; }
+.flexslider .slides li { position: relative; }
+.flex-caption {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    color: white;
+    background:rgba(197,82,87,.8);
+    z-index:1;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.containers {
+    background-color: white;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.containers-success {
+    background-color: #88ee88;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.containers-aboutUs {
+    background: url(../img/logo/aboutUs.jpg);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ts .col-sm-12{
+    background-color: grey;
+}
+/*
+@media (min-width: 1500px) {
+    .containers {
+        width: 1400px;
+    }
+    .containers-success {
+        width: 1400px;
+    }
+    .containers-aboutUs {
+        width: 1400px;
+    }
+}
+*/
+/*------------------------------------------------------
+	MEDIA QUERIES
+--------------------------------------------------------*/
+/*
+@media only screen and (min-width: 1200px){
+    .containers {
+        width: 1400px;
+    }
+    .containers-success {
+        width: 1400px;
+    }
+    .containers-aboutUs {
+        width: 1400px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .containers {
+        width: 1200px;
+    }
+    .containers-success {
+        width: 1200px;
+    }
+    .containers-aboutUs {
+        width: 1200px;
+    }
+   }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .containers {
+        width: 1000px;
+    }
+    .containers-success {
+        width: 1000px;
+    }
+    .containers-aboutUs {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+    .containers {
+        width: 800px;
+    }
+    .containers-success {
+        width: 800px;
+    }
+    .containers-aboutUs {
+        width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .containers {
+        width: 600px;
+    }
+    .containers-success {
+        width: 600px;
+    }
+    .containers-aboutUs {
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .containers {
+        width: 500px;
+    }
+    .containers-success {
+        width: 500px;
+    }
+    .containers-aboutUs {
+        width: 500px;
+    }
+}
+*/

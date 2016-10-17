@@ -1,0 +1,797 @@
+/*
+
+Karma Template
+
+http://www.templatemo.com/tm-403-karma
+
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	GENERAL
+/*-----------------------------------------------------------------------------------*/
+html { font-size: 1em; }
+
+body { font-family: 'Comfortaa', Arial, sans-serif; overflow-x: hidden; } /*carasmo's comment to hide horizontal scroll bar https://github.com/twbs/bootstrap/issues/10711*/
+
+nav { font-family: 'Comfortaa', Arial, sans-serif; }
+
+h1 { font-weight: 700; }
+
+h2 { font-size: 1.5em; }
+
+ul { margin: 0; }
+
+section { padding-top: 85px; margin-top: -85px; }
+section .outer_container { margin-bottom: 50px; background-color: #eeeeee;  }
+section .row { margin-left: 0; margin-right: 0; overflow: hidden; }
+section h1 { color: white; margin-top: 0px; margin-bottom: 0px; line-height: 280px; text-align: center; }
+
+/*.container{margin: 0 auto}*/
+.templatemo_ceo img { margin-bottom: 10px; }
+.templatemo_ceo p { text-align: center; }
+
+
+
+/*http://css-tricks.com/vertically-center-multi-lined-text/*/
+.center-row { display: table; }
+.center-row .center { display: table-cell; vertical-align: middle; }
+
+/*------------------------------------------------------
+	NAVIGATION 
+--------------------------------------------------------*/
+.nav.navbar-nav.navbar-right li a {
+	color: #88ee88;
+}
+.navbar-header  h2{
+	color: white;
+}
+
+.navSign{
+	margin-left: 0px;
+	font-size: 20px;
+	font-family: 'Liberation Sans';
+	font-weight: 600;
+	color:#88ee88;
+}
+
+.navIntro{
+	font-size: 20px;
+	font-family: 'Liberation Sans';
+	font-weight: 600;
+	color:#88ee88;
+}
+
+nav { font-size: 1.7em; font-weight: bolder; }
+nav .fa { display: block; text-align: center; margin-bottom: 13px; }
+
+.navbar {
+	background: rgba(48, 48, 48, 0.5);
+	min-height: 110px;
+	opacity: 2.0;
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 0px;
+	-webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	-moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a {
+	padding-bottom: 20px;
+	color: white;
+	-moz-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	-webkit-transition: background-color .5s ease;
+	transition: background-color .5s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .menu ul li a.current {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.navbar>.container .navbar-brand { margin-left: 0; }
+.navbar-collapse .navbar-nav.navbar-right:last-child { margin-right: 0; }
+.navbar-toggle{background-color: white; margin-top: 20px;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #82e750; }
+
+/*------------------------------------------------------
+	BOOTSTRAP OVERRIDING
+--------------------------------------------------------*/
+/*------------------------------------------------------
+	MEDIA QUERIES
+--------------------------------------------------------*/
+@media only screen and (min-width: 1200px){
+	h1 { font-size: 4.5em; }
+	.services_buttons { text-align: right; }
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .menu ul li a.current {
+		height: 85px;
+	}
+	.headerLogo{
+		width: 220px;
+		height: 220px;
+	}
+
+	.introText{
+		font-family: "Comfortaa";
+		font-size: 3.2em;
+		font-weight: 900;
+		color: white;
+	}
+
+	.btn {
+		padding:10px 16px;
+		font-size:18px;
+		line-height:1.3333333
+	}
+	.services4 {
+		min-height: 450px;
+		margin-left: -40px;
+		margin-right: -40px;
+		padding-top: 170px;
+	}
+
+	.howItsWorks4{
+		min-height: 530px ;
+		padding-top: 220px;
+	}
+
+	.services8 {
+		margin-right:-40px;
+		min-height: 450px;
+		padding-top: 20px;
+	}
+
+	.howItsWorks8{
+		min-height: 530px ;
+		margin-right:-20px;
+	}
+
+
+
+	.services8 i{
+		font-size: x-large;
+		margin-top: 5px;
+		padding-right: 15px;
+		padding-left: 35px;
+	}
+
+	.services8 p{
+		font-size: x-large;
+		font-weight: 700;
+	}
+
+	.vlignServices8 {
+		padding-top: 20px;
+	}
+
+
+
+	.logoSale img {
+		width: 250px;
+		height: 150px;
+	}
+
+	.saleSign{
+		padding-top: 45px;
+		font-size: 2.2em;
+	}
+
+	.sliderStyle2{
+		margin-top: -10px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	.sliderStyle{
+
+	}
+
+	.aboutUs img{
+		margin-left: 25px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	h1 { font-size: 3.5em; }
+	.services_buttons { text-align: right; }
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .menu ul li a.current {
+		height: 85px;
+	}
+
+	.headerLogo{
+		width: 220px;
+		height: 220px;
+	}
+
+	.introText{
+		font-family: "Comfortaa";
+		font-size: 3.2em;
+		font-weight: 900;
+		color: white;
+	}
+
+	.btn {
+		padding:5px 10px;
+		font-size:12px;
+		line-height:1.5;
+		border-radius:3px
+	}
+
+	.services4 {
+		margin-left: -40px;
+		margin-right: -40px;
+		min-height: 350px;
+		padding-top: 130px;
+	}
+
+	.howItsWorks4{
+		min-height: 370px;
+	}
+
+	.services8 {
+		margin-right:-40px;
+		min-height: 350px;
+		padding-top: 20px;
+	}
+
+	.howItsWorks8{
+		min-height: 370px;
+	}
+
+	.services8 i{
+		padding-right: 15px;
+		padding-left: 15px;
+		font-size: large;
+	}
+
+	.services8 p{
+		margin-left:-20px;
+		font-size: medium;
+		font-weight: 600;
+		font-size: large;
+	}
+
+	.vlignServices8 {
+		padding-top: 30px;
+	}
+
+
+	.logoSale img {
+		width: 250px;
+		height: 150px;
+	}
+
+	.saleSign{
+		padding-top: 35px;
+		font-size: 2.2em;
+	}
+
+	.sliderStyle2{
+		margin-top: -10px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-bottom: 40px;
+	}
+}
+
+@media only screen and (min-width: 992px){
+	.item1{
+		font: 600 40px 'PF DinDisplay Pro';
+	}
+	.profits .item-title {
+		font: 600 24px 'PF DinDisplay Pro';
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	h1 { font-size: 2.5em; }
+	nav { font-size: 1em; }
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .menu ul li a.current {
+		height: 85px;
+	}
+	.headerLogo {
+		width: 190px;
+		height: 190px;
+	}
+
+	.introText{
+		font-family: "Comfortaa";
+		font-size: 3.2em;
+		font-weight: 900;
+		color: white;
+	}
+
+	.btn {
+		padding:10px 16px;
+		font-size:18px;
+		line-height:1.3333333
+	}
+
+	.services4 {
+		margin-left: -40px;
+		margin-right: -40px;
+		min-height: 150px;
+		padding-top: 40px;
+	}
+
+	.services8 {
+		padding-top: 20px;
+		margin-left:-40px;
+		margin-right: -40px;
+		margin-top: -11px;
+	}
+
+	.services8 i{
+		font-size: x-large;
+		margin-top: 5px;
+		padding-left: 60px;
+	}
+
+	.services8 p{
+		font-size: x-large;
+		font-weight: 700;
+	}
+
+
+	.moveLeft{
+		margin-left: 40px;
+	}
+
+
+	.vlignServices8 {
+		padding-top: 20px;
+	}
+
+	.logoSale img{
+		width: 200px;
+		height: 120px;
+
+	}
+
+	.saleSign{
+		padding-top: 10px;
+		font-size: 2em;
+	}
+
+	.sliderStyle2 {
+		margin-top: 10px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	.item1{
+		font: 600 30px 'PF DinDisplay Pro';
+	}
+	.profits .item-title {
+		font: 600 24px 'PF DinDisplay Pro';
+	}
+
+}
+
+@media only screen and (min-width: 768px){
+	.profits .item-icon {
+		width: 170px;
+		height: 124px;
+		margin: 0 auto;
+		background: url('../img/icons/what-is-icons.png') no-repeat;
+	}
+	.aboutUs p{
+		font-size: x-large;
+		font-weight: 700;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.textFont {
+		font-size: 40px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+	h1 { font-size: 2.5em; }
+	nav .fa { display: inline; text-align: left; margin-bottom: 0; margin-right: 10px; }
+	.navbar-default .navbar-nav>li>a { padding-top: 15px; padding-bottom: 15px; }
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+		height: 100%;
+	}
+
+	.headerLogo{
+		width: 160px;
+		height: 160px;
+	}
+
+	.introText{
+		font-family: "Comfortaa";
+		font-size: 2.2em;
+		font-weight: 900;
+		color: white;
+	}
+
+	.btn {
+		padding:10px 16px;
+		font-size:18px;
+		line-height:1.3333333
+	}
+
+	.services4 {
+		margin-left: -40px;
+		margin-right: -40px;
+		min-height: 150px;
+		padding-top: 40px;
+	}
+
+	.services8 {
+
+		margin-left:-40px;
+		margin-right: -40px;
+		margin-top: -20px;
+		padding-top: 12px;
+		min-height: 430px;
+
+	}
+
+	.services8 i{
+		font-size: x-large;
+		margin-top: 5px;
+		padding-left: 50px;
+	}
+
+	.services8 p{
+		font-size: x-large;
+		font-weight: 700;
+	}
+
+	.vlignServices8 {
+		padding-top: 20px;
+	}
+
+	.moveLeft{
+		margin-left: 40px;
+	}
+
+	.howItsWorks8{
+		min-height: 230px;
+	}
+	.howItsWorks8 p{
+		font-size: larger;
+	}
+
+	.logoSale img{
+		width: 180px;
+		height: 110px;
+
+	}
+
+	.saleSign{
+		padding-top: 30px;
+		font-size: 1.6em;
+		padding-left: 30px;
+	}
+
+	.sliderStyle2{
+		margin-top: 10px;
+		padding-left: 30px;
+		padding-right:30px;
+	}
+
+	.profits .item-icon {
+		display: none;
+	}
+
+	.item1{
+		font: 600 20px 'PF DinDisplay Pro';
+	}
+
+	.profits .item-title {
+		font: 600 20px 'PF DinDisplay Pro';
+	}
+
+	.aboutUs p{
+		font-size: larger;
+		font-weight: 600;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	section h1 {	font-size: 1.6em; line-height: 50px; }
+	nav .fa { display: inline; text-align: left; margin-bottom: 0; margin-right: 10px; }
+	.col-xxs { display:block; float:none; width: 100% }
+    .social_buttons { margin-top: 30px; }
+    .pull-right { float: left !important; } /*do not pull-right in mobile view*/
+    .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+		height: 100%;
+	}
+	.navbar-default .navbar-nav>li>a { padding-top: 15px; padding-bottom: 15px; }
+
+	.headerLogo{
+		width: 140px;
+		height: 140px;
+	}
+
+	.logoCenter{
+		text-align: center;
+	}
+
+	.introText{
+		font-family: "Comfortaa";
+		font-size: 2.2em;
+		font-weight: 900;
+		color: white;
+	}
+
+	.services4 {
+		margin-left: -40px;
+		min-height: 150px;
+		margin-right: -40px;
+		padding-top: 40px;
+	}
+
+	.services8 {
+		margin-left:-40px;
+		margin-right: -40px;
+		margin-top: -11px;
+
+	}
+
+	.services8 i{
+		padding-right: 15px;
+		padding-left: 40px;
+		font-size: large;
+	}
+
+	.services8 p{
+		font-size: large;
+		font-weight: 700;
+	}
+
+	.vlignServices8 {
+		padding-top: 20px;
+	}
+
+	.howItsWorks8{
+		min-height: 230px;
+	}
+	.howItsWorks8 p{
+		font-size: larger;
+	}
+
+	.moveLeft{
+		margin-left: 40px;
+	}
+
+	.logoSale img{
+		width: 120px;
+		height: 75px;
+
+	}
+
+	.saleSign{
+		padding-top: 20px;
+		font-size: 1em;
+		padding-left: 10px;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 430px) {
+	body { font-size: 10px; }
+	.btn-primary { font-size: 1.1em; }
+	.blog_post h2 { font-size: 1.1em; padding: 5px 5px; }
+	.services_buttons .icon-button { font-size: 180%; }
+	.navbar-default .navbar-nav>li>a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+		height: 100%;
+	}
+
+	.headerLogo{
+		width: 140px;
+		height: 140px;
+	}
+
+	.logoCenter{
+		text-align: center;
+	}
+
+	.introText{
+		font-family: "Comfortaa";
+		font-size: 2.2em;
+		font-weight: 900;
+		color: white;
+	}
+
+	.services4 {
+		margin-left: -40px;
+		margin-right: -40px;
+		min-height: 150px;
+		padding-top: 40px;
+
+	}
+
+	.services8 {
+		padding-top: 20px;
+		margin-left:-40px;
+		margin-right: -40px;
+		margin-top: -11px;
+
+	}
+
+	.services8 i{
+		font-size: larger;
+		margin-top: 5px;
+		padding-left: 40px;
+	}
+
+	.services8 p{
+		font-size: larger;
+		font-weight: 700;
+	}
+
+	.vlignServices8 {
+		padding-top: 20px;
+	}
+
+	.logoSale img{
+		width: 95px;
+		height: 60px;
+
+	}
+
+	.saleSign{
+		padding-top: 20px;
+		font-size: 1em;
+		padding-left: 5px;
+	}
+
+	.container{
+		margin-left: 15px;
+	}
+
+	.textFont {
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 324px) {
+	body { font-size: 10px; }
+	.btn-primary { font-size: 1.1em; }
+	.blog_post h2 { font-size: 1.1em; padding: 5px 5px; }
+	.services_buttons .icon-button { font-size: 180%; }
+	.navbar-default .navbar-nav>li>a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+		height: 100%;
+	}
+
+	.headerLogo{
+		width: 80px;
+		height: 80px;
+	}
+
+	.logoCenter{
+		text-align: center;
+	}
+
+	.introText{
+		font-family: "Comfortaa";
+		font-size: 1.4em;
+		font-weight: 700;
+		color: white;
+	}
+
+	.services4 {
+		margin-left: -40px;
+		margin-right: -40px;
+		min-height: 150px;
+		padding-top: 40px;
+
+	}
+
+	.services8 {
+		padding-top: 20px;
+		margin-left:-40px;
+		margin-right: -40px;
+		margin-top: -11px;
+
+	}
+
+	.services8 i{
+		font-size: larger;
+		margin-top: 5px;
+		padding-left: 40px;
+	}
+
+	.services8 p{
+		font-size: larger;
+		font-weight: 700;
+	}
+
+	.vlignServices8 {
+		padding-top: 20px;
+	}
+
+	.logoSale img{
+		width: 95px;
+		height: 60px;
+
+	}
+
+	.saleSign{
+		padding-top: 20px;
+		font-size: 1em;
+		padding-left: 5px;
+	}
+
+	.container{
+		margin-left: 0px;
+	}
+
+	.getPhoneForm p{
+		font-size: medium;
+		font-weight: 500;
+
+	}
+
+	.getPhoneForm img{
+		height: 30px;
+		weight: 30px;
+	}
+
+	.btn {
+		padding:5px 10px;
+		font-size:12px;
+		line-height:1.5;
+		border-radius:3px
+	}
+
+
+}
+/*min-width*/
+@media only screen and (min-width: 325px) {
+
+	.getPhoneForm p {
+		font-size: larger;
+		font-weight: 600;
+
+	}
+
+	.getPhoneForm img {
+		height: 50px;
+		weight: 50px;
+	}
+}
+
+
+@media only screen and (min-width: 325px) {
+
+	.getPhoneForm p {
+		font-size: larger;
+		font-weight: 600;
+	}
+
+	.getPhoneForm img {
+		height: 50px;
+		weight: 50px;
+	}
+}
+
+/* End minimalmonkey */

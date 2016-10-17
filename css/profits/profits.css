@@ -1,0 +1,90 @@
+.center-wrapper {
+    position: relative;
+    /*width: 1100px;*/
+    margin: 0 auto;
+}
+
+.profits {
+    margin-top: -80px;
+   /* height: 570px;*/
+    min-height: 250px;
+
+}
+
+.profits .block-title {
+    position: absolute;
+    left: 38px;
+    top: 110px;
+    width: 305px;
+}
+
+.profits .block-title .row-2 {
+    margin: 11px 15px 0 0;
+    padding-top: 18px;
+    border-top: 1px solid #cecece;
+}
+
+.profits .items {
+    padding: 77px 42px 0 0;
+}
+
+.profits .item {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+/*
+.profits .item-icon {
+    width: 170px;
+    height: 124px;
+    margin: 0 auto;
+    background: url('../../img/icons/what-is-icons.png') no-repeat;
+}
+*/
+
+.item1 {
+    margin-top: 7px;
+    padding-top: 50px;
+    color: #20c11b
+}
+
+.profits .item-3 .item-icon {
+    background-position: -170px 0;
+}
+
+.profits .item-4 .item-icon {
+    background-position: -340px 0;
+}
+
+.profits .item-5 .item-icon {
+    background-position: -510px 0;
+}
+
+.profits .item-6 .item-icon {
+    background-position: -680px 0;
+}
+
+.profits .item-title {
+    margin-top: 7px;
+    color: #282828;
+}
+
+.profits .item-text {
+    margin: 8px 20px 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #111;
+}
+
+.block-title .row-2 {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #4b4b4b;
+}
+
+.block-title .green {
+    color: #2caf0a;
+}
